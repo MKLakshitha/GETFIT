@@ -53,8 +53,5 @@ Get Fit, a one destination fitness app that will provide workout plan(with video
 - [Firebase](https://firebase.google.com)(for authentication and saving user data)
 - [Kingfisher](https://github.com/onevcat/Kingfisher)(A light weight swift library to get images from the web)
 
-# Links
-- Some element of current UI design is different from the provided design file.
-  - [App's UI design(Figma)](https://www.figma.com/community/file/1127341178423272618)
-- App in action [Click to watch the video](https://www.youtube.com/watch?v=2jM5ctQRiig)
+
 
