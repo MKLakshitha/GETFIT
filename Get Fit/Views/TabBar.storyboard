@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a5P-sm-pCI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Workouts Screens-->
+        <scene sceneID="43z-Pz-9d5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Workouts Screens" id="vPZ-hR-8rl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Workouts" image="Dumbbell" id="4Pe-z3-0GH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kXm-9b-J8M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="368"/>
+        </scene>
+        <!--Diet Plan Screen-->
+        <scene sceneID="26r-CM-0Nb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Diet Plan Screen" id="1Z8-Wk-MMG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Diet Plan" image="Diet Plan" id="Wde-dm-X3N"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pN8-iY-raH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492" y="368"/>
+        </scene>
+        <!--Profile Screen-->
+        <scene sceneID="TJS-6e-07u">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile Screen" id="p6G-sD-SfP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="DdN-Zm-0KI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CU7-mU-QW1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="867" y="368"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ao2-vX-a4z">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" id="a5P-sm-pCI" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="C05-VG-d6A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vPZ-hR-8rl" kind="relationship" relationship="viewControllers" id="Hsb-Vs-EAL"/>
+                        <segue destination="1Z8-Wk-MMG" kind="relationship" relationship="viewControllers" id="cyS-2a-hpq"/>
+                        <segue destination="p6G-sD-SfP" kind="relationship" relationship="viewControllers" id="RgJ-X9-WjT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9C-3L-0yS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="-240"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Diet Plan" width="30" height="30"/>
+        <image name="Dumbbell" width="30" height="30"/>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
+    </resources>
+</document>
